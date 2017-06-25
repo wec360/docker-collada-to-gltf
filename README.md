@@ -4,7 +4,7 @@ Uses the latest version of https://github.com/KhronosGroup/COLLADA2GLTF/
 
 ```bash
 Usage:
-  docker run --rm -v $(pwd):/app wec360/collada-to-gltf input.dae output.gltf [options]
+  docker run --rm -v $(pwd):/app wec360/collada2gltf input.dae output.gltf [options]
 
 Options:
   -i, --input	path of the input COLLADA file	 [0] [required] [string]

@@ -27,6 +27,8 @@ MAINTAINER opensource@wec360.se
 
 COPY --from=build /source/COLLADA2GLTF-bin /usr/local/bin/collada2gltf
 
+WORKDIR /app
+
 ENTRYPOINT ["collada2gltf"]
 
 CMD ["-h"]
